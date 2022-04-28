@@ -15,7 +15,7 @@ body {
 
 .parallax {
     background-size: cover;
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-image: url("../image/background.jpg");
     height: 100vh;
