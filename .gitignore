@@ -18,5 +18,3 @@ wordpress/*.log
 wordpress/.htaccess
 wordpress/wp-content/plugins
 wordpress/wp-content/upgrade
-
-wordpress/wp-content/themes/portfolio/assets/image/p*
