@@ -5,7 +5,8 @@ html {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     --color1: white;
-    --color2: #9AF062;
+    --color2: #ff7700;
+    /* #9AF062 */
 }
 
 body {
@@ -117,12 +118,15 @@ header .menu__item-link:hover {
 }
 
 .presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     position: relative;
     top: 20%;
-    left: 5vw;
-    width: max-content;
+    right: 5vw;
     color: var(--color1);
     mix-blend-mode: hard-light;
+    text-align: right;
     text-shadow: 1px 1px 3px black, -1px -1px 3px black;
 }
 
@@ -256,7 +260,6 @@ header .menu__item-link:hover {
 
     .competences__canva {
         width: 100%;
-        order: -1;
     }
 }
 

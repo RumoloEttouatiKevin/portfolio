@@ -81,7 +81,7 @@ if (document.getElementById('myCanvas')) {
         try {
             TagCanvas.Start('myCanvas', 'tags', {
                 imageMode: 'text',
-                textColour: '#9AF062',
+                textColour: '#ff7700',
                 outlineColour: '#00000000',
                 reverse: true,
                 depth: 0.8,

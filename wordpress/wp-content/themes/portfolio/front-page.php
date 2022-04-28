@@ -3,8 +3,8 @@
     <section id="competences">
         <div class="competences__tabs">
             <div class="competences__desc">
-                <h3><?= get_post(48)->post_title ?></h3>
-                <?= get_post(48)->post_content ?>
+                <h3><?= get_post(17)->post_title ?></h3>
+                <?= get_post(17)->post_content ?>
             </div>
             <div class="competences__canva">
                 <div id="myCanvasContainer">

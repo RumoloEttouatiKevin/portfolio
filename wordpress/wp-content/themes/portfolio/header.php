@@ -37,8 +37,8 @@
                         <?php $userFirst = get_user_meta(1) ?>
                         <span class="presentation__name"><?= $userFirst['first_name'][0] . ' ' . $userFirst['last_name'][0] ?></span><br>
                         <span class="presentation__description"><?= $userFirst['description'][0] ?></span><br>
-                        <span class="presentation__subdescription"><?= get_post(17)->post_title ?></span>
+                        <span class="presentation__subdescription"><?= get_post(7)->post_title ?></span>
                     </p>
-                    <?= str_replace('<p>', '<p class="presentation__info">', get_post(17)->post_content) ?>
+                    <?= str_replace('<p>', '<p class="presentation__info">', get_post(7)->post_content) ?>
                 </div>
             </div>
