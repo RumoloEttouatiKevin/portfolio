@@ -422,3 +422,17 @@ footer p {
         margin: 0 15px;
     }
 }
+
+.wp-block-separator {
+    color: var(--color2);
+}
+
+.wp-block-button__link {
+    border-radius: 10px;
+    background-color: #181818;
+}
+
+.wp-block-button__link:hover {
+    text-decoration: none;
+    background-color: #222222;
+}
