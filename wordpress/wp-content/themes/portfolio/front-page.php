@@ -38,7 +38,7 @@
                             </div>
                             <div class="realisations__item-techno">
                                 <?php foreach(get_the_tags() as $currentTag) : ?>
-                                    <i class="devicon-<?= $currentTag->slug ?>-plain colored" title="<?= $currentTag->name ?>"></i>
+                                    <i class="devicon-<?= $currentTag->slug ?>-plain" title="<?= $currentTag->name ?>"></i>
                                 <?php endforeach ?>
                             </div>
                         </div>
